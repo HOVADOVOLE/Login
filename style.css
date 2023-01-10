@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#background{
+    height: 100vh;
+    width:  100vw;
+    background-color: #6029a1/*#f81a8f*/;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 50%;
+    height: 80%;
+    background-color: #f81af8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.box2{
+    width: 50%;
+    height: 35%;
+    background-color: transparent;
+}
+.reg{
+    background-color: black;
+    width: 100%;
+    height: 45%;
+    border-radius: 45px;
+    position: relative;
+    top: 0;
+}
+.pri{
+    background-color: black;
+    width: 100%;
+    height: 45%;
+    border-radius: 45px;
+    position: relative;
+    bottom: -20px;
+}
+.reg:hover{
+    background-color: #131212;
+    transform: scale(1.2) perspective(1px);
+}
+.pri:hover{
+    background-color: #131212;
+    transform: scale(1.2) perspective(1px);
+}
+.email{
+    width: 50%;
+    height: 50%;
+    border-radius: 40px;
+    border: none;
+    font-size: x-large;
+    text-align: center;
+}
+#forma{
+    width: 50%;
+    height: 80%;
+    background-color: #f81af8;
+    border-radius: 15px;
+}
+.emaily{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.heslo{
+    width: 50%;
+    height: 50%;
+    border-radius: 40px;
+    border: none;
+    font-size: x-large;
+    text-align: center;
+}
+.btn{
+    width: 50%;
+    height: 15%;
+    border-radius: 40px;
+    background-color: black;
+    color: #6029a1;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    margin: 0 auto;
+    left: 25%;
+    top: 10%;
+}
+.btn:hover{
+    background-color: #131212;
+    transform: scale(1.2) perspective(1px);
+}
+.btn2{
+    width: 50%;
+    height: 15%;
+    border-radius: 40px;
+    background-color: black;
+    color: #6029a1;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    margin: 0 auto;
+    left: 25%;
+    top: 1.5%;
+}
+.btn2:hover{
+    background-color: #131212;
+    transform: scale(1.2) perspective(1px);
+}
